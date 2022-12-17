@@ -203,6 +203,7 @@ if [ "$ARCH" = 'amd64' ]; then
     build_cras 'i386'
 fi
 
+```bash
 - __crouton\_Penguin__
    - [AUTHORS](AUTHORS)
    - [CONTRIBUTORS](CONTRIBUTORS)
@@ -1982,3 +1983,4 @@ fi
          - __plugin__
            - __playback__
            - __unified__
+```
