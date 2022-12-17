@@ -6,7 +6,7 @@ my attempt at RPM chromebook install with Cras and Xorg with new kernels
 
 # Fetch CRAS source
 
-CRASBUILDTMP="`mktemp -d chromeOSLinux-cras.XXXXXX --tmpdir=/tmp`"
+CRASBUILDTMP="`mktemp -d chromeOSLinux-cras.XXXXXX --tmpdir=/usr/local/tmp`" # need to create dir moved from /tmp
 
 addtrap "rm -rf --one-file-system '$CRASBUILDTMP'"
 
